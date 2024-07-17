@@ -3,12 +3,13 @@ html,body{
     padding: 0;
     margin: 0;
     width: 100%;
+    height: 100%
 }
 /* header */
 .header-container{
     position: relative;
     padding: 4.3%;
-    background-image: linear-gradient(to right,blue,aqua);
+    background-color: blue;
     top: 0;
     left: 0;
 }
@@ -33,3 +34,11 @@ html,body{
 }
 
 /* footer */
+.footer{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    top: 90%;
+    left: 0;
+    background-color: blue;
+}
