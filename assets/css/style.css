@@ -1,44 +1,59 @@
 /* layout*/
 html,body{
+    position: relative;
     padding: 0;
     margin: 0;
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 /* header */
 .header-container{
     position: relative;
-    padding: 4.3%;
-    background-color: blue;
     top: 0;
     left: 0;
+    padding: 4.2%;
+    background-color: rgb(46, 46, 46);
 }
-.header-container > h1{
+.header-container > a > img{
     position: absolute;
     top: 0;
-    left: 16%;
+    left: 0;
+    width: 10%;
+    padding: 2.5%;
+}
+.header-container > a > h1 {
+    position: absolute;
+    top: 38%;
+    left: 14%;
     margin: 0;
-    font-size: 3rem;
     color: white;
-    height: auto;
-    margin-top: 1.5%;
-    margin-left: 1%;
+    font-size: xx-large;
 }
-.header-container > img{
-    position: absolute;
-    width: 15%;
-    height: auto;
-    top: 0;
-    left: 0;
-    padding: 1%;
+/* content */
+.content-container{
+    position: relative;
+    top: 0.5%;
+    z-index: -1;
+    width: 100%;
+    height: 20%;
+    background-color: aqua;
 }
 
 /* footer */
 .footer{
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 10%;
-    top: 90%;
+    bottom: 0;
     left: 0;
-    background-color: blue;
+    background-color: rgb(46, 46, 46);
+}
+.footer > i {
+    position: absolute;
+    top: 38%;
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
 }
