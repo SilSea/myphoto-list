@@ -57,6 +57,15 @@ body{
     text-align: center;
     width: 33%;
 }
+.card-left > div{
+    margin: 1%;
+}
+.card-center > div{
+    margin: 1%;
+}
+.card-right > div{
+    margin: 1%;
+}
 .card-center{
     position: absolute;
     text-align: center;
