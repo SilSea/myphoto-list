@@ -1,10 +1,12 @@
 /* layout*/
 html,body{
-    position: relative;
     padding: 0;
     margin: 0;
     width: 100%;
     height: 100%;
+}
+body{
+    position: relative;
 }
 /* header */
 .header-container{
@@ -67,7 +69,7 @@ html,body{
     width: 33%;
     left: 66%;
 }
-.card-left,.card-center,.card-right > div{
+.card-left,.card-center,.card-right{
     margin-top: 1%;
 }
 .card-img{
